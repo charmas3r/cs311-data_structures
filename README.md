@@ -2,7 +2,7 @@
 
 A thorough understanding of several advanced methods for implementing the abstract data types and the time used by each method. Includes abstract data types such as dictionary, priority queues, matrices, and relations, foundation of recursive algorithms, complexity analysis, complexity classes, sorting and searching, computability and undecidability, problem-solving strategies, heuristic search, modeling and components of database systems, and graphics software systems. 
 
-Algorithms and Data Structures we will learn in this class are for:
+Algorithms and Data Structures included in this repository are for:
 *	Evaluating post fix expressions 
 *	Generating all strings made up of a set of characters
 *	Searching through a list
