@@ -70,7 +70,7 @@ element in the result vector (Z), that element is then deleted and the process i
 are any elements in either vector being compared. If there are any elements in either vector after the
 the comparison then those are added to the end of the result vector. 
  
-param: X and Y and the two comparison vectors and Z is the result vector.
+param: X and Y are the two comparison vectors and Z is the result vector.
 */
 void combineVectors(vector<int> X, vector<int> Y, vector<int> Z)
 {
