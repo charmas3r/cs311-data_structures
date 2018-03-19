@@ -1,0 +1,131 @@
+Script started on Fri 16 Mar 2018 03:27:48 PM PDT
+]0;smith635@empress:~/cs311/hw3[?1034h[smith635@empress hw3]$ ls
+[0m[01;32ma.out[0m  Hw3P1client.cpp  llist.cpp  llist.h  testHw3.txt  test.txt
+]0;smith635@empress:~/cs311/hw3[smith635@empress hw3]$ g++ H2[Kw3P1client.cpp llist.cpp
+]0;smith635@empress:~/cs311/hw3[smith635@empress hw3]$ ./a/.[K[K.out
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+   (4) Case 4 
+    Enter ( 0 ) to quit 
+===>1
+CASE 1:------------------- 
+Step 1
+List is empty
+Step 2
+ [ empty ] 
+Step 3
+ Added 1, 2, 3 and 4 to the rear
+Step 4
+ [ 1 ]  [ 2 ]  [ 3 ]  [ 4 ] 
+Step 5
+Removed 1
+Removed 2
+Step 6
+ [ 3 ]  [ 4 ] 
+Step 7
+List is not empty
+Step 8
+Removed 4
+Removed 3
+Step 9
+List is empty
+Calling the llist destructor
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+   (4) Case 4 
+    Enter ( 0 ) to quit 
+===>2
+Case 2: -----------------------
+Step 1
+Added 5 to the front
+Step 2
+Added 4 to the front
+Step 3
+Removed 4
+Step 4
+Added 6, 8, 9 to the rear
+Step 5
+ [ 5 ]  [ 6 ]  [ 8 ]  [ 9 ] 
+Step 6
+Added 4 before 1st element
+Step 7
+Added 7 before 4th element
+Step 8
+Added 10 before 7th element
+Step 9
+ERROR: Out of range request
+10
+ERROR: Out of range request
+Step 11
+ [ 4 ]  [ 5 ]  [ 6 ]  [ 8 ]  [ 7 ]  [ 9 ]  [ 10 ] 
+Step 12
+Removed 5
+Step 13
+Removed 10
+Step 14
+Removed 7
+Step 15
+ERROR: Out of range request
+Step 16
+ERROR: Out of range request
+Step 17
+ [ 4 ]  [ 6 ]  [ 8 ]  [ 9 ] 
+Step 18
+Removed 9
+Removed 8
+Removed 6
+Removed 4
+Step 19
+ [ empty ] 
+Calling the llist destructor
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+   (4) Case 4 
+    Enter ( 0 ) to quit 
+===>3
+Case 3:-------------------- 
+Step 1
+ERROR: Out of range request
+Step 2
+ERROR: Underflow occured!
+Calling the llist destructor
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+   (4) Case 4 
+    Enter ( 0 ) to quit 
+===>4
+Case 4:------------------------ 
+Step 1
+ERROR: Out of range request
+Step 2
+ERROR: Underflow occured!
+Calling the llist destructor
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+   (4) Case 4 
+    Enter ( 0 ) to quit 
+===>0
+]0;smith635@empress:~/cs311/hw3[smith635@empress hw3]$ exit
+exit
+
+Script done on Fri 16 Mar 2018 03:28:24 PM PDT
