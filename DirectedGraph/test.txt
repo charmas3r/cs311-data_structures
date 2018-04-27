@@ -1,0 +1,36 @@
+Script started on Fri 27 Apr 2018 12:52:05 PM PDT
+]0;smith635@empress:~/cs311/hw4[?1034h[smith635@empress hw4]$ logout./a.outg++ dGraph.cpp slist.cpp llist.cpp driver.cpp
+]0;smith635@empress:~/cs311/hw4[smith635@empress hw4]$ ./a.[K.out
+Enter the name of Vertex you would like to know the out degree of: B
+Vertex B has an out degree of: 2
+
+Enter the name of Vertex you would like to know the slist of: F
+ [ I ]  [ E ] 
+
+
+Directed Graph Table: 
+
+ Name  Deg   Adjacency List
+ ----  ---   --------------
+  A  |  2  |   [ B ]  [ F ] 
+
+  B  |  2  |   [ C ]  [ G ] 
+
+  C  |  1  |   [ H ] 
+
+  D  |  0  |   [ empty ] 
+
+  E  |  0  |   [ empty ] 
+
+  F  |  2  |   [ I ]  [ E ] 
+
+  G  |  0  |   [ empty ] 
+
+  H  |  2  |   [ G ]  [ I ] 
+
+  I  |  3  |   [ A ]  [ G ]  [ E ] 
+
+]0;smith635@empress:~/cs311/hw4[smith635@empress hw4]$ exit
+exit
+
+Script done on Fri 27 Apr 2018 12:52:53 PM PDT
